@@ -28,5 +28,6 @@ public class Demo {
 		System.out.println(text);
 		driver.findElement(By.id("logoutLink")).click();
 		driver.quit();
+		System.out.println("Create customer has been passed");
 	}
 }
